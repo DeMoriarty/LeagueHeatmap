@@ -1,0 +1,20 @@
+.hm-container {
+  background-color: #ccc;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hm-controller {
+  background-color: #aaa;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hm-displayer {
+  background-color: #aaa;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}

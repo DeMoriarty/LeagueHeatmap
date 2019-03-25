@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import MinimapPlayer from './components/MinimapPlayer'
+
+import TodoList from './components/TodoList'
+// import ContactList from './components/ContactList'
+// import ConditionalComp from './components/Conditional'
+// import Container from './components/ConditionalPractice'
+// import FormPractice from './components/FormPractice'
+import MemeGenerator from './components/MemeGenerator'
+import Heatmap from './components/Heatmap'
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Heatmap />
       </div>
     );
   }

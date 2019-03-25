@@ -1,0 +1,184 @@
+
+.container {
+  background-color: #ddd;
+  padding: 10px;
+  margin: 10px;
+  max-width: 550px;
+  min-width: 250px;
+}
+
+.flex-container {
+  /* background-color: #0aa; */
+  /* padding: 10px; */
+  padding: 0px;
+}
+
+.controller {
+  background-color: #aaa;
+  padding: 10px;
+  border-radius: 3px;
+  height: 70px;
+}
+
+.displayer {
+  background-color: #aaa;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.champfilter-container {
+  background-color: #aaa;
+  padding: 10px;
+  height: 355px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.slider-container {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.slider-bar {
+  margin-top: 10px;
+  position: relative;
+  border-radius: 10px;
+  background-color: lightblue
+}
+
+.slider-bbox {
+  height: 11px;
+  position: relative;
+  margin-top: -27px;
+  cursor: pointer;
+}
+
+.slider-handle {
+  margin-top: -15px;
+  top: 0px;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-handle:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.slider-handle:active {
+  transform: scale(0.85);
+  background-color: rgb(122, 233, 122);
+  cursor: pointer;
+}
+
+.play-button {
+  padding: 10px;
+  width: 2rem;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background-color: rgb(22, 122, 200);
+}
+
+.play-button:active {
+  transform: scale(0.9);
+  transition: linear 0.05s;
+  cursor: pointer;
+  color:hsl(320, 100, 50)
+}
+
+.play-button:focus {
+  outline: none;
+}
+
+.pause-button:hover {
+  background-color: rgb(200, 0, 0);
+}
+
+.pause-button:active {
+  transform: scale(0.9);
+  transition: linear 0.05s;
+}
+
+.pause-button:focus {
+  outline: none;
+}
+
+.pause-button {
+  padding: 10px;
+  width: 2rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.controller-time {
+  position: relative;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  top: -50px;
+  left: 80%;
+  font-weight: bold;
+}
+
+.filter-item {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  /* background-color: darkcyan; */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.filter-label {
+  position: relative;
+  color: white;
+  background-color: #333;
+  font-size: small;
+  padding: 5px;
+  top: -200%;
+  width: 100%;
+  left: -12%;
+  border-radius: 3px 3px;
+}
+
+.todos {
+  background-color: lightblue;
+  color: red;
+  font-size: larger;
+  font-weight: bold;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+  border: 10px solid skyblue;
+}
+
+.todos p {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: rgb(198, 128, 128);
+}

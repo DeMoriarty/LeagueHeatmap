@@ -21,3 +21,22 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Useless
+/src/components/contactlist
+/src/components/layout
+/src/components/matchViewer
+/src/components/meme
+/src/components/minimap
+/src/components/todolist
+
+/src/components/AboutMe.js
+/src/components/Conditional.js
+/src/components/ConditionalPractice.js
+/src/components/ContactList.js
+/src/components/FormPractice.js
+/src/components/Forms.js
+/src/components/MemeGenerator.js
+/src/components/TodoList.js
+
+

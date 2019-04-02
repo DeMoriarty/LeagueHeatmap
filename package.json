@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "react": "^16.8.4",
+    "react-autosuggest": "^9.4.3",
+    "react-bootstrap": "^1.0.0-beta.6",
+    "react-compound-slider": "^1.2.1",
     "react-dom": "^16.8.4",
+    "react-dual-range-slider": "^1.0.4",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "reactrangeslider": "^3.0.6"
   },
   "scripts": {
     "start": "react-scripts start",

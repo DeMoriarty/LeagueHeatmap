@@ -29,7 +29,8 @@ export class GridCell extends Component {
 
   componentWillReceiveProps(nextProps) {
     const { x, y, value, scheme } = nextProps
-    if (value !== this.props.value) {
+    if (value !== this.props.value
+      || scheme !== this.props.scheme) {
       this.setColor(value, scheme)
     }
   }

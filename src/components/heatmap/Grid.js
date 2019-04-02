@@ -60,64 +60,32 @@ export class Grid extends Component {
     for (let item of vals) {
       let x = Math.floor(item[0] / cellWidth)
       let y = Math.floor(item[1] / cellHeight)
+      // console.log(grid[x][y])
       grid[x][y]++
     }
-    let max = this.getMax(grid)
-    let mean = this.getMean(grid) * 5
-    grid = grid.map(value => value.map(item => item / mean))
-    grid = grid.map(value => value.map(item => item < 1 ? item : 1))
+
     return grid
   }
 
-  /// TEMP
-  gaussianGrid = grid => {
-    return grid.map((col, i) => col.map((item, j) => {
-      return this.setValue(i, j, item, grid, "gaussian")
-    }))
-
-  }
-  generate = (width, height, grid) => {
-    let res = []
-    let col = grid.length
-    let row = grid[0].length
-    let cellWidth = width / col
-    let cellHeight = height / row
-
-    grid = this.gaussianGrid(grid)
-    let max = this.getMax(grid)
-    grid = grid.map(value => value.map(item => item / max))
-
-    for (let i = 0; i < col; i++) {
-      for (let j = 0; j < row; j++) {
-        const item = <GridCell
-          width={ cellWidth }
-          height={ cellHeight }
-          x={ i }
-          y={ j }
-          value={ grid[i][j] }
-          grid={ grid }
-          key={ `${i},${j}` }
-        />
-        res.push(item)
-      }
+  sumGrid = grids => {
+    if (grids.length > 0) {
+      let grid = grids[0].map((row, i) => {
+        return row.map((item, j) => {
+          let sum = 0
+          for (let grid of grids) {
+            sum += grid[i][j]
+          }
+          return sum
+        })
+      })
+      let mean = this.getMean(grid) * 5
+      grid = grid.map(value => value.map(item => item / mean))
+      grid = grid.map(value => value.map(item => item < 1 ? item : 1))
+      return grid
     }
-    return res
   }
 
-  setValue = (x, y, value, grid, mode = "gaussian") => {
-    let size = [grid.length, grid[0].length]
-    if (mode === "block") {
-      value = value
-    } else if (mode === "gaussian") {
-      let ss = grid.map((col, i) => col.map((item, j) => {
-        return this.gaussian2d(x / size[0], y / size[1], i / size[0], j / size[1], 0.025) * grid[i][j]
-      }))
-      value = this.getSum(ss.map(arr => this.getSum(arr)))
-    }
-    return value
-  }
-
-  gen = (width, height, grid, mode = "block", scheme="jet", scale=20) => {
+  gen = (width, height, grid, mode = "block", scheme = "jet", scale = 20) => {
     let size = [grid.length, grid[0].length]
     let cellWidth = width / size[0]
     let cellHeight = height / size[1]
@@ -128,7 +96,7 @@ export class Grid extends Component {
           value = grid[i][j]
         } else if (mode === "gaussian") {
           let patchSize = [size[0] / scale, size[1] / scale]
-          patchSize = patchSize.map(item=>item > 1 ? item : 1)
+          patchSize = patchSize.map(item => item > 1 ? item : 1)
           let top_left = [Math.round(i - patchSize[0]), Math.round(j - patchSize[1])]
           let bottom_right = [Math.round(i + patchSize[0]), Math.round(j + patchSize[1])]
           top_left = top_left.map(i => {
@@ -153,8 +121,8 @@ export class Grid extends Component {
     })
     let max = this.getMax(grid)
     grid = grid.map(value => value.map(item => item / max))
-    for (let i = 0; i < size[0]; i++){
-      for (let j = 0; j < size[1]; j++){
+    for (let i = 0; i < size[0]; i++) {
+      for (let j = 0; j < size[1]; j++) {
         res.push(<GridCell
           width={ cellWidth }
           height={ cellHeight }
@@ -169,23 +137,62 @@ export class Grid extends Component {
     return res
   }
 
+  sliceData = (data, from, to) => {
+    from = Number(from)
+    to = Number(to)
+    let keys = Object.keys(data)
+    let result = JSON.parse(JSON.stringify(data))
+    for (let key of keys) {
+      if (key < from) {
+        delete result[key]
+      } else if (key > to) {
+        delete result[key]
+      }
+    }
+    return result
+  }
+
   componentDidMount() {
-    const { width, height, size, data, mode, scheme } = this.props
+    const { width, height, size, mode, scheme, from, to } = this.props
+    let { data } = this.props
     let [col, row] = size.split('x')
     col = Number(col)
     row = Number(row)
+    data = data.map(item => item.data[item.current])
+    // TODO: Temporary
+
+    data = data[0]
+    data = this.sliceData(data, from, to)
     const grid = this.count(col, row, data)
     this.setState({
       items: this.gen(width, height, grid, mode, scheme),
     })
   }
   componentWillReceiveProps(nextProps) {
-    const { width, height, size, data, mode, scheme } = nextProps
-    if (size !== this.props.size) {
+    const { width, height, size, mode, scheme, from, to } = nextProps
+    let { data, champs } = nextProps
+    if (size !== this.props.size
+      || data !== this.props.data
+      || from !== this.props.from
+      || to !== this.props.to
+      || mode !== this.props.mode
+      || scheme !== this.props.scheme
+      || champs !== this.props.champs
+      || true) {
       let [col, row] = size.split('x')
-      col = Number(col)
-      row = Number(row)
-      const grid = this.count(col, row, data)
+      data = data.map(item => item.show ? item.data[item.current] : [])
+      if (data.length < 1) {
+        this.setState({ items: [] })
+        return
+      }
+
+      let grids = []
+      for (let item of data) {
+        item = this.sliceData(item, from, to)
+        const tGrid = this.count(col, row, item)
+        grids.push(tGrid)
+      }
+      const grid = this.sumGrid(grids)
       this.setState({
         items: this.gen(width, height, grid, mode, scheme),
       })

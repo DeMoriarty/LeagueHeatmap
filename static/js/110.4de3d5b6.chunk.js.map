@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Swain.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/110.4de3d5b6.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Swain.733217fd.jpg\";"],"sourceRoot":""}

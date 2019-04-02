@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Braum.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"6EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/17.6bb0a474.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Braum.28409951.jpg\";"],"sourceRoot":""}

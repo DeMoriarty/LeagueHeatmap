@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Skarner.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/107.735e81a8.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Skarner.ac50083f.jpg\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Irelia.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/43.85cfe90c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Irelia.58ab93a1.jpg\";"],"sourceRoot":""}

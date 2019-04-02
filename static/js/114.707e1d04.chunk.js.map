@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Taliyah.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/114.707e1d04.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Taliyah.63b6d7ba.jpg\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Elise.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/28.f8c1d8fc.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Elise.562e46e1.jpg\";"],"sourceRoot":""}

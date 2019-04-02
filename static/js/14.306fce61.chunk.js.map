@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Bard.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"6EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/14.306fce61.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Bard.422a8948.jpg\";"],"sourceRoot":""}

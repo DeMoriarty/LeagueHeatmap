@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Cassiopeia.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"6EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/20.0fbb8730.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Cassiopeia.33085552.jpg\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Sejuani.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/100.7b2700bf.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Sejuani.ae6091c2.jpg\";"],"sourceRoot":""}

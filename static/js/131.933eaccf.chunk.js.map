@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Viktor.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/131.933eaccf.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Viktor.af23e4f0.jpg\";"],"sourceRoot":""}

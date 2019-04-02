@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Anivia.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"4EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/9.28301406.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Anivia.37dc7a6b.jpg\";"],"sourceRoot":""}

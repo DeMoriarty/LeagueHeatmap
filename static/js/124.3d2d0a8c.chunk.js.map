@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Udyr.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/124.3d2d0a8c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Udyr.8280d32d.jpg\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Jarvan IV.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/46.39dcbedb.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Jarvan IV.ab66afe8.jpg\";"],"sourceRoot":""}

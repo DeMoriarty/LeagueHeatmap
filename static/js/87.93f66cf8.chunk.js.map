@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Ornn.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/87.93f66cf8.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Ornn.2c884c54.jpg\";"],"sourceRoot":""}

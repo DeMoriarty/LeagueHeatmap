@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Urgot.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/125.762177da.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Urgot.c3794b2f.jpg\";"],"sourceRoot":""}

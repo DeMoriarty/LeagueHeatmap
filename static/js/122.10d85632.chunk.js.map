@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Twisted Fate.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/122.10d85632.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Twisted Fate.2f0a3fe0.jpg\";"],"sourceRoot":""}

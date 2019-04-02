@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Akali.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"4EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/6.6c9cf986.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Akali.2b01aa70.jpg\";"],"sourceRoot":""}

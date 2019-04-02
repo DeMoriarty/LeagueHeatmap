@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Tristana.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/119.b33e6289.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Tristana.5c69ea2a.jpg\";"],"sourceRoot":""}

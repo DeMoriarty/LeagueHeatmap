@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Aurelion Sol.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"6EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/12.5b5a0603.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Aurelion Sol.10b737a9.jpg\";"],"sourceRoot":""}

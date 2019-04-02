@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Kalista.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/52.a7affd88.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Kalista.4ef15300.jpg\";"],"sourceRoot":""}

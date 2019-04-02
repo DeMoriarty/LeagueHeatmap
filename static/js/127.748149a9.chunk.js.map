@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Vayne.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/127.748149a9.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Vayne.319b2b03.jpg\";"],"sourceRoot":""}

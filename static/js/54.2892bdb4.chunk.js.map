@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Karthus.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/54.2892bdb4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Karthus.ff3da5f3.jpg\";"],"sourceRoot":""}

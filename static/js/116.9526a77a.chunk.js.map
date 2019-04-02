@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Taric.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/116.9526a77a.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Taric.f148a0d1.jpg\";"],"sourceRoot":""}

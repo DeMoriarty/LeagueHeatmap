@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Amumu.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"4EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/8.10614062.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Amumu.7d745f47.jpg\";"],"sourceRoot":""}

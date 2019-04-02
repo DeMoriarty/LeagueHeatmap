@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Janna.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/45.ff7c7356.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Janna.64bdc306.jpg\";"],"sourceRoot":""}

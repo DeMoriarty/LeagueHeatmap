@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Vel'Koz.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/129.57559bae.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Vel'Koz.985079a0.jpg\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Leona.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/66.8500fe23.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Leona.65b65563.jpg\";"],"sourceRoot":""}

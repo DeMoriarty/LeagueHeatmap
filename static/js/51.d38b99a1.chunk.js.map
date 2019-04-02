@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Kai'Sa.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/51.d38b99a1.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Kai'Sa.5d5557f8.jpg\";"],"sourceRoot":""}

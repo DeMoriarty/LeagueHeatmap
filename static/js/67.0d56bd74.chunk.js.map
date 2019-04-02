@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Lissandra.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/67.0d56bd74.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Lissandra.197db044.jpg\";"],"sourceRoot":""}

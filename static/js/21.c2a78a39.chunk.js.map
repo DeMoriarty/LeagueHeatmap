@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Cho'Gath.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"6EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/21.c2a78a39.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Cho'Gath.64b0ece0.jpg\";"],"sourceRoot":""}

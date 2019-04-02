@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Neeko.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/81.3a771efb.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Neeko.ce0d96c6.jpg\";"],"sourceRoot":""}

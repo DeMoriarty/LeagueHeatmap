@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Camille.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"6EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/19.e0e939f4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Camille.b2007622.jpg\";"],"sourceRoot":""}

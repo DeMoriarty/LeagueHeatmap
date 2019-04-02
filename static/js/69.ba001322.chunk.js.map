@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Lulu.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/69.ba001322.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Lulu.785e12a2.jpg\";"],"sourceRoot":""}

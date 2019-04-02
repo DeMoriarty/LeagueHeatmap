@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Trundle.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/120.f280b8b5.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Trundle.c2846aa0.jpg\";"],"sourceRoot":""}

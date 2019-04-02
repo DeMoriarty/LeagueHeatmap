@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Garen.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/36.25e8b920.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Garen.471eeac7.jpg\";"],"sourceRoot":""}

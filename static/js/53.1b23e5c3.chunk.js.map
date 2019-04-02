@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Karma.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/53.1b23e5c3.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Karma.6754b119.jpg\";"],"sourceRoot":""}

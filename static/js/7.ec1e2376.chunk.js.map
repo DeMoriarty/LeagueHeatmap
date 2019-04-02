@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Alistar.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"4EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/7.ec1e2376.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Alistar.e8b52623.jpg\";"],"sourceRoot":""}

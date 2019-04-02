@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Xayah.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/136.f1d5df49.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Xayah.0c6f3239.jpg\";"],"sourceRoot":""}

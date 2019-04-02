@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Evelynn.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/29.02474067.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Evelynn.d1d70b87.jpg\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Kayle.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/57.7107f624.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Kayle.1d9d7601.jpg\";"],"sourceRoot":""}

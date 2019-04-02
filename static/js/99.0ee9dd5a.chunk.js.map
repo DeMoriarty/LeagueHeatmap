@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Ryze.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/99.0ee9dd5a.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Ryze.849b2ef1.jpg\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Volibear.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"+EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/133.9305942f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Volibear.8365b224.jpg\";"],"sourceRoot":""}

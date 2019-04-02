@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Riven.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/97.39feadc0.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Riven.166a3e30.jpg\";"],"sourceRoot":""}

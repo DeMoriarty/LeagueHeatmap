@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Ivern.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/44.056d83da.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Ivern.18789b79.jpg\";"],"sourceRoot":""}

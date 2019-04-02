@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Kindred.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/61.369b53c7.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Kindred.56360180.jpg\";"],"sourceRoot":""}

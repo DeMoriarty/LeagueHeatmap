@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/champion_icons/Illaoi.jpg"],"names":["module","exports","__webpack_require__","p"],"mappings":"8EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/42.3ea0cfdd.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Illaoi.8953f90c.jpg\";"],"sourceRoot":""}

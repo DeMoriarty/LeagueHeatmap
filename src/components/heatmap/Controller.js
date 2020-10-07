@@ -23,6 +23,7 @@ export class Controller extends Component {
               max={ this.props.maxFrame }
               from={ this.props.from }
               to={ this.props.to }
+              frameRate={ this.props.frameRate }
             />
             <ButtonToolbar className="ml-2 mb-3" aria-label="but-toolbar">
               <ButtonGroup className="mb-2" aria-label="but-group2">

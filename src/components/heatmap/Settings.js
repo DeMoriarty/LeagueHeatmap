@@ -62,6 +62,14 @@ export class Settings extends Component {
                 </option>
               )) }
             </select>
+            <label htmlFor="frame-rate">
+              Frame Rate
+            </label>
+            <input
+              type="text" 
+              name="frame-rate"
+              onChange={this.props.setFrameRate(Number(e.value)) }
+            />
             <hr/>
             <Form>
               <FormLabel>

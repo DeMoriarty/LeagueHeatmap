@@ -37,7 +37,8 @@ export class Container extends Component {
     mode: "gaussian",
     scheme: "jet",
     buttons: [[0, this.max, 0]],
-    candidateRange: `${f2t(0)}-${f2t(this.max)}`,
+    candidateRange: `${f2t(0), 25}-${f2t(this.max), 25}`,
+    frameRate: 25,
   }
   componentDidMount() {
   }
@@ -152,7 +153,7 @@ export class Container extends Component {
     this.setState({
       from: range[0],
       to: range[1],
-      candidateRange: `${f2t(range[0])}-${f2t(range[1])}`
+      candidateRange: `${f2t(range[0]), this.state.frameRate}-${f2t(range[1], this.state.frameRate)}`
     })
   }
   setSize = (e) => {
@@ -164,6 +165,13 @@ export class Container extends Component {
       })
     }
   }
+  setFrameRate = (fps) => {
+    this.setState( prevState => ({
+      frameRate: fps,
+      candidateRange: `${f2t(prevState.from)}-${f2t(prevState.to)}`
+    })
+    )
+  }
   handleSelect = (e) => {
     this.setState({ current: e.target.value })
   }
@@ -172,35 +180,35 @@ export class Container extends Component {
     this.setState({ [name]: value })
   }
   addButton = (e) => {
-    const { buttons } = this.state
+    const { buttons, frameRate } = this.state
     let content = this.state.candidateRange
     if (!RegExp('(\\d{1,2}:)?\\d{1,2}:\\d{1,2}-(\\d{1,2}:)?\\d{1,2}:\\d{1,2}').test(content)) {
       alert('Input is not valid!')
       return
     }
     let range = content.split('-')
-    range = range.map(item => t2f(item))
+    range = range.map(item => t2f(item, frameRate))
     for (let button of buttons) {
-      if (f2t(button[0]) === f2t(range[0]) && f2t(button[1]) === f2t(range[1])) {
+      if (f2t(button[0], frameRate) === f2t(range[0], frameRate) && f2t(button[1], frameRate) === f2t(range[1], frameRate)) {
         return
       }
     }
-    content = `${f2t(range[0])}-${f2t(range[1])}`
+    content = `${f2t(range[0], frameRate)}-${f2t(range[1], frameRate)}`
     let key = buttons.length > 0 ? buttons[buttons.length - 1][2] + 1 : 0
     let newbtn = [range[0], range[1], key]
     this.setState({ buttons: [...this.state.buttons, newbtn] })
   }
   everyXMin = (e, x) => {
-    const { maxFrame, buttons } = this.state
+    const { maxFrame, buttons, frameRate } = this.state
     let initialLen = buttons.length > 0 ? buttons[buttons.length - 1][2] : -1
     let newButtons = []
-    for (let from = 0; from < maxFrame; from += x * 30 * 60) {
-      let to = from + x * 30 * 60 - 1
+    for (let from = 0; from < maxFrame; from += x * frameRate * 60) {
+      let to = from + x * frameRate * 60 - 1
       if (to > maxFrame) to = maxFrame
-      let content = `${f2t(from)}-${f2t(to)}`
+      let content = `${f2t(from, frameRate)}-${f2t(to, frameRate)}`
       let repeated = false
       for (let button of buttons) {
-        if (`${f2t(button[0])}-${f2t(button[1])}` === content) {
+        if (`${f2t(button[0], frameRate)}-${f2t(button[1], frameRate)}` === content) {
           repeated = true
         }
       }
@@ -223,7 +231,7 @@ export class Container extends Component {
     this.setState({ candidateRange: value })
   }
   render() {
-    const { size, maxFrame, from, to, current, mode, scheme } = this.state
+    const { size, maxFrame, from, to, current, mode, scheme, frameRate } = this.state
     const buttons = this.state.buttons.map(([from, to, key]) => (
       <TimeRangeButton
         from={ from }
@@ -271,6 +279,7 @@ export class Container extends Component {
                 maxFrame={ maxFrame }
                 from={ from }
                 to={ to }
+                frameRate = { frameRate }
                 setSize={ this.setSize }
                 setRange={ this.setRange }
                 champList={ this.state.champList }

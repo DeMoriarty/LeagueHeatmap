@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-// import MinimapPlayer from './components/MinimapPlayer'
+import MinimapPlayer from './components/MinimapPlayer'
 // import TodoList from './components/TodoList'
 // import ContactList from './components/ContactList'
 // import ConditionalComp from './components/Conditional'
@@ -15,7 +15,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Heatmap />
+        {/* <Heatmap /> */}
+        <MinimapPlayer />
       </div>
     );
   }

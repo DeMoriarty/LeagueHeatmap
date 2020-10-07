@@ -68,13 +68,13 @@ function Track({ source, target, getTrackProps }) {
 
 export class RangeSlider extends Component {
   render() {
-    const { max, from, to } = this.props
+    const { max, from, to, frameRate } = this.props
     return (
       <Slider
         rootStyle={ sliderStyle }
         domain={ [0, max] }
         values={ [from, to] }
-        step={ 30 }
+        step={ frameRate }
         mode={ 1 }
         onChange={ this.props.onChange }
       >
